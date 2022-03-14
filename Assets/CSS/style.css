@@ -1,0 +1,63 @@
+:root{
+    --primary-color: #d35649;
+    --primary-gray: #98a5a5;
+    --primary-blue: #509bd7;
+    --gray-footer: #1f1f1f;
+    --gray-footer-btn: #444;
+    --primary-purple: #575a89;
+    --light-gray: #eee;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#Part0{
+background-image: url('D:/Nina/Utile/Perso/DCLIC/Evaluation finale HTML_CSS/Assets/Images/group-1.jpg');
+background-size: cover;
+padding: 130px;
+}
+header{
+    background-color: var(--primary-color);
+    height: 11vh;
+}
+
+footer .img-fluid{
+    position: absolute;
+    padding: 1vh;
+    border: 1px solid #000;
+    margin-top: -3vh;
+}
+footer .row p{
+    padding: 2px;
+    font-size: 13px;
+}
+footer{
+    background-color: var(--gray-footer);
+}
+.end{
+    background: var(--gray-footer-btn);
+    display: flex;
+    justify-content: space-between;
+}
+.end img{
+    height: 15px;
+}
+.social-reseau{
+    display: flex;
+    margin: 15px;
+}
+
+.social-reseau img{
+    margin-right: 25px;
+}
+
+.copyright{
+    top: 5px;
+    padding: 13px;
+    color: var(--primary-gray);
+}
+.form{
+    background-color: var(--light-gray);
+    background-size: cover;
+}
